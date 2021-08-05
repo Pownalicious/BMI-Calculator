@@ -11,11 +11,11 @@ btn.addEventListener("click", function () {
 
 
 
-//CODAISSEUR OUTCOME ASSIGNMENT
+// OUTCOME ASSIGNMENT
 // console.log(`
 // weight: ${weightInKG}
 // height: ${heightInM}
-// You BMI is: ${BMI}
+// Youre BMI is: ${BMI}
 // *******************************************
 // A BMI under 18.5 is considered underweight
 // A BMI above 25 is considered overweight
