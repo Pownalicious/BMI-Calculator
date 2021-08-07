@@ -1,17 +1,22 @@
 
 let btn = document.getElementById("btn");
 
-btn.addEventListener("click", function () {
-    let weightInKG = document.getElementById("weight").value;
-    let heightInM = document.getElementById("height").value;
-    let totalBMI = (weightInKG / (heightInM * heightInM) * 10000)
-    document.getElementById('bmi-output').value = Math.round(totalBMI)
-})
+function meter() {
+    btn.addEventListener("click", function () {
+        let weightInKG = document.getElementById("weight").value;
+        let heightInM = document.getElementById("height").value;
+        let totalBMI = (weightInKG / (heightInM * heightInM) * 10000)
+        const total = document.getElementById('bmi-output').value = Math.round(totalBMI)
+    })
+}
 
 
 
 
-//CODAISSEUR OUTCOME ASSIGNMENT
+
+
+
+// OUTCOME ASSIGNMENT
 // console.log(`
 // weight: ${weightInKG}
 // height: ${heightInM}
