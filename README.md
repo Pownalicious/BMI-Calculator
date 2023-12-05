@@ -1,1 +1,1 @@
-# bootcampProject
+# BMI-Calculator
